@@ -80,7 +80,7 @@ const styles = theme => ({
 
 const images = [
   {
-    url: 'http://travel-tips.s3-website-eu-west-1.amazonaws.com/singapore-boat-quay-statues.jpg',
+    url: 'https://jejakvicky.files.wordpress.com/2011/06/044-the-river-merchants-sculpture-near-boat-quay.jpg',
     title: 'Travel Insurance',
     width: '50%',
     bg:'/travel'
