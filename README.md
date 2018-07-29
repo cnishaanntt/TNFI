@@ -1,6 +1,6 @@
-# `redux-form-material-ui` Example
+# `Solartis Insure` Example
 
-## [Live Demo](http://erikras.github.io/redux-form-material-ui/)
+## [Live Demo](https://cnishaanntt-solartisinsure.glitch.me)
 
 ## To run locally
 
