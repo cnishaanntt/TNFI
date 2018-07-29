@@ -95,7 +95,7 @@ const images = [
 
 function ButtonBases(props) {
   const { classes } = props;
-  const go = (url)=>{window.location.assign('http://'+window.location.host+url)}
+  const go = (url)=>{window.location.assign('https://'+window.location.host+url)}
   return (
     <div className={classes.root}>
       {images.map(image => (
