@@ -48,7 +48,7 @@ class ProfFormFifthPage extends Component {
                 </List>
               </div>}          
       </div>}
-      {rate.MessageDetail && <div>
+      {(rate.MessageDetail || (!(rate.MessageDetail ||rate.Policy) )) && <div>
         <button type="button" className="previous" onClick={HomePage}>
           Home
         </button>
