@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TravelFormFirstPage from './TravelFormFirstPage';
-import moment from 'moment';
-import axios from 'axios';
+
 
 
 class travelForm extends Component {
@@ -14,11 +13,9 @@ class travelForm extends Component {
     this.previousPage = this.previousPage.bind(this) 
     this.state = {
       page: 1,
-      rate:'',
-      customer_number:'',
-      issue_response:'',
-    }
-  }  
+      rate:''
+    }  
+  }
   nextPage() {
     this.setState({ page: this.state.page + 1 })
   }

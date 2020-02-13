@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Field, FieldArray, reduxForm, formValueSelector } from 'redux-form';
+import { Field, FieldArray, reduxForm } from 'redux-form';
 import {AutoComplete as MUIAutoComplete, List, ListItem} from 'material-ui';
 import {states} from './asset/states';
 import DeleteIcon from 'material-ui/svg-icons/action/delete';
@@ -14,14 +14,8 @@ import {
   TextField  
 } from 'redux-form-material-ui';
 
-
-
-
-
 // validation functions
 const required = value => (value == null ? 'Required' : undefined);
-//const priceCheck = value => (isNaN(value)?((value.charAt(0)==='$')?((isNaN(value.substr(1)) || value.substr(1).charAt(0)==='0' || value.substr(1).charAt(0)==='' || value.substr(1).charAt(0)===0)?'* travel expenditure in numbers as $2000':undefined):'Please add your travel expenditure'): undefined)
-//const text = value => (/^[a-zA-Z]+$/.test(value)? undefined :'Please fill with text')
 
 const renderMembers = ({fields, meta: {error, submitFailed}}) => (
   <List>
@@ -106,6 +100,15 @@ class TravelFormFirstPage extends Component {
         </div>
         <div>
           <Field
+            name="phone"
+            component={TextField}
+            hintText="Phone Number"
+            floatingLabelText=" Call at"
+            validate={[required]}
+          />
+        </div>
+        <div>
+          <Field
             name="address"
             component={TextField}
             hintText="Residence"
@@ -153,8 +156,6 @@ TravelFormFirstPage = reduxForm({
   destroyOnUnmount: false, // <------ preserve form data
   forceUnregisterOnUnmount: true
 })(TravelFormFirstPage);
-
-//const selector = formValueSelector('travel') // <-- same as form name  
 
 
 export default TravelFormFirstPage;

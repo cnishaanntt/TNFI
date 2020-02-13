@@ -83,13 +83,13 @@ const images = [
     url: 'https://jejakvicky.files.wordpress.com/2011/06/044-the-river-merchants-sculpture-near-boat-quay.jpg',
     title: 'Tree Growers',
     width: '50%',
-    bg:'/travel'
+    bg:'/grower'
   },
   {
     url: 'https://www.princeton.edu/sites/default/files/styles/half_16_9_1440/public/images/2018/07/20151006_KidsONcampus_watercolor_MLu_002_d.jpg?itok=EAuFFdAj',
     title: 'Industries',
     width: '50%',
-    bg:'/prof'
+    bg:'/industry'
   }
 ];
 

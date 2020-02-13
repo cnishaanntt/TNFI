@@ -1,8 +1,7 @@
-# `Solartis Insure` Example
+# `Tamil Nadu Forestry Innovation` Example
 
-## [Live Demo](https://cnishaanntt-solartisinsure.glitch.me)
-![professional Insurance](https://github.com/cnishaanntt/SolartisInsure/blob/master/example.gif)
-![travel Insurance](https://github.com/cnishaanntt/SolartisInsure/blob/master/travel.gif)
+## [Live Demo](https://cnishaanntt-tnfi.glitch.me)
+
 ## To run locally
 
 ```

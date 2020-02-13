@@ -27,8 +27,8 @@ let render = () => {
       <BrowserRouter>  
         <div>  
           <Switch>
-            <Route exact path="/prof" component={profForm}/>
-            <Route exact path="/travel" component={travelForm}/>
+            <Route exact path="/industry" component={profForm}/>
+            <Route exact path="/grower" component={travelForm}/>
             <Route exact path="/" component={main}/>
           </Switch> 
         </div>        
